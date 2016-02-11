@@ -1,0 +1,25 @@
+.footer{
+  background-color:#FFFFFF;
+  color: $color-background;
+  padding: 0  0 5em 0;
+  line-height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+}
+.nav{
+  margin: 0;
+}
+
+.legal{
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 110%;
+  margin-top: 3rem;
+  color: #000000;
+}
+
+.footer-icon {
+  color: #000;
+}

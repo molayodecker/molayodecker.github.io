@@ -1,0 +1,48 @@
+.nav{
+  margin-top: 1.75rem;
+
+  .nav-elements{
+    display: flex;
+    @media $small{
+      display: flex;
+    }
+
+    .navbar{
+       margin: 0;
+       padding: 0;
+       line-height: 150%;
+       list-style-type: none;
+       width: 100%;
+       @media $small{
+         display: flex;
+         justify-content: flex-end;
+         align-content: flex-start;
+         flex-wrap: wrap;
+       }
+    }/*end of navbar*/
+    a{
+      font-weight: $font-weight-bold;
+      text-decoration: none;
+      color: $nav-color;
+      padding: 0 1rem;
+    }
+
+    a::after{
+      content: '';
+      display: block;
+      height: 5px;
+      width: 0px;
+      margin: 0 0.5rem;
+      transition: width .3s ease-out, background-color .3s ease-out;
+    }
+
+    a:hover{
+      color: $yellow;
+    }
+
+    a:hover::after{
+      width: 100%;
+      background: $yellow;
+    }
+  }/*end of nav-elements*/
+}/*end of nav*/

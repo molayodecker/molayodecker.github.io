@@ -1,0 +1,32 @@
+.header{
+  background-color: black;
+  @mixin backImage '../images/backgrounds/header.jpg', 500px;
+  @media $small {
+    @mixin backImage '../images/backgrounds/header.jpg', 800px;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*text-align: center;*/
+
+  .tagline {
+    display: none;
+    @media $small{
+      display: block;
+      color: inherit;
+      max-width: 40em;
+      line-height: 140%;
+
+      h1{
+        color: #F38630;
+        text-shadow:#000;
+
+      }
+      em{
+        font-size: 140%;
+        color: #000;
+        font-style: normal;
+      }
+    }
+  }
+}
