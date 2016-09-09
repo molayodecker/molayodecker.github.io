@@ -1,0 +1,98 @@
+<!Doctype html>
+<html>
+<head>
+<title>Molayo Decker</title>
+<link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header id="home" class="header"><!--start header -->
+  <nav class="nav" role="navigation"><!--start of nav -->
+      <div class="container nav-elements">
+        <ul class="navbar">
+          <li><a href="#about">about</a></li>
+          <li><a href="#experience">experience</a></li>
+          <li><a href="#blog">blog</a></li>
+          <li><a href="#project">projects</a></li>
+        <ul>
+      </div>
+  </nav><!--end of nav -->
+  <div class="container tagline">
+    <h1 class="headline">Molayo Decker</h1>
+    <p><em>(This website is a work in progress! Beware of bugs!)</em> </p>
+  </div><!-- container tagline -->
+</header><!--End of header -->
+<section id="about" class="section">
+<h1>About</h1>
+<div class="container">
+ <p>  Hi, my name  is Molayo Decker! I am currently a graduate student at Walden University
+      with a major in Cyber Security. My interests are algorithms, machine language, pentesting,
+      and robotics. I have experience using Java, JavaScript, PHP, Ruby, Ruby-on-Rails,
+      and Oracle database.   
+ </p>
+ </div>
+</section>
+<section id="experience" class="section">
+  <h1>Experience</h1>
+  <ul> 
+      <li>
+      Solution-oriented, highly analytical, resourceful  Java/JEE Developer with 5+ years of experience in design, development and implementation of complex, high performance, scalable web applications, n-tier and distributed systems using Java-based technologies.
+      </li>
+      <li>
+        In-depth knowledge of Object Oriented Analysis and Design (OOAD) Programming and Development of software systems with Java EE technologies.
+      </li>
+      </ul>
+  <div class="container">
+   <p>
+       - I have been working for the <em>Ministry of Health (Ghana)</em> for Six(6)years. I developed and managed
+     the Human Resource website. <a href="http://www.hrhobservatoryghana.org" target="_blank">www.hrhobservatoryghana.org</a>
+   </br> - I also piloted and deployed iHRIS manage,an Open source human resource information solution for the Health Sector.
+     <a href="http://www.http://ihrisghana.org" target="_blank">www.ihrisghana.org</a>
+  </br>- Used Codeigniter to develop a Pre-service admission website for nursing applicant.
+     Over 70,00 applicants access the site between January – April every year
+   </br> - Used Pendragon, ArcGIS  and DS,js to create a geolocations of Nursing Schools in Ghana
+ </br> - Installed, Configured and trained 24 Midwifery ICT tutor to use the Skoool Learning
+      Platform from intel. <a href="http://ghanaelearning.org" target="_blank">www.ghanaelearning.org</a>
+   </p>
+   <p> - I worked at <em>MiPromo</em>, as a part-time junior web programmer.
+         Used PHP to customize modules and extensions on Joomla
+          <a href="http://www.ghanamusic.com" target="_blank">www.ghanamusic.com</a>
+         Develop codes, system design and testing to improve user experience on the website.
+         Delivered backend tools to supporting advertising, enabling the company to
+         compete more effectively in the marketplace through search-engine optimization
+
+   </p>
+  </div>
+</section>
+
+<footer class="footer">
+  <header class="imageheader"></header>
+  <div class="container">
+  <nav class="nav" role="navigation">
+    <div class="container nav-elements">
+      <div class="branding">
+        <p class="address">
+      </p>
+      </div>
+      <ul class="navbar">
+        <li><a href="#about">about</a></li>
+        <li><a href="#experience">experience</a></li>
+        <li><a href="#blog">blog</a></li>
+        <li><a href="#project">projects</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- <div class="footer-icon">
+<i class="fa fa-envelope fa-fw fa-3x "></i>
+  </div> -->
+  <div class="footer-icon">
+  <a href="mailto:molayodecker@gmail.com"></a>
+  <i class="foo"></i>
+  <i class="fa fa-camera"></i>
+  </div>
+  <p class="legal">Copyright © Molayo Decker 2016</p>
+</div><!-- container -->
+</footer><!-- footer -->
+</body>
+</html>
