@@ -21,7 +21,10 @@
 }
 
 .footer-icon {
-  color: #000;
+  color: $color-background;
 }
 
+.fa-cog {
+  color: black;
+}
 
