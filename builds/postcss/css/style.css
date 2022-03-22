@@ -54,7 +54,7 @@ img {
 
 a {
     font-weight: 700;
-    color: #fff;
+    color: #000;
 }
 
 a:focus,
@@ -135,11 +135,13 @@ em {
     margin-top: 1.75rem/*end of nav-elements*/
 }
 
-.nav .nav-elements {
+.nav .nav-elements a {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    color: #fff;
+    background-color: #000;
 }
 
 .nav .nav-elements .navbar {
@@ -218,6 +220,11 @@ em {
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
     align-items: flex-end
+}
+
+.footer a {
+    color: #000 !important;
+    background-color: #fff !important;
 }
 
 .nav {
@@ -326,7 +333,6 @@ em {
 }
 
 .footer-icon {
-    color: #000;
     margin: auto
 }
 
